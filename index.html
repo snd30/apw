@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  left: 200px;
+ 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #c7c2c2;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border:solid 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    bottom: 0;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+</style>
+<body>
+    <header>
+        <h1>Importância dos projetos web</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#benefits">Beneficios </a></li>
+                <li><a href="#phases">Fases</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Introdução aos sistemas Web</h2>
+        <p>Projetos da Web são essenciais para o sucesso dos negócios modernos. Eles melhoram a eficiência operacional e reduzem custos.São eles:</p>
+    </section>
+    <section id="benefits">
+        <h2>Benefícios dos Projetos de Sistemas Web</h2>
+        <p>Escalabilidade, eficiência e redução de custos são alguns dos principais benefícios de um sistema web bem executado.</p>
+    </section>
+    <section id="phases">
+        <h2>Fases do projeto</h2>
+        <p>1. Planejamento e análise de requisitos;</p>
+            <img src="https://www.coopersystem.com.br/wp-content/uploads/2023/05/analise-de-requisitos.jpg" alt="">
+              <p>2. Design e prototipação</p>
+              <img src="https://www.mjvinnovation.com/wp-content/uploads/2021/07/o-papel-da-prototipagem-mjv-technology-innovation.jpg" alt="">
+               <p>3. Desenvolvimento e testes</p>
+               <img src="https://primeitsolutions.com.br/wp-content/uploads/2022/05/capavideo.jpg" alt="">
+              <p> 4. Implementação e manutenção</p>  
+                <img src="https://ipesi.com.br/wp-content/uploads/2021/05/Industria-4.0.jpg" alt="">
+
+
+            
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="#" method="POST">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Desenvolvido por Igor.</p>
+    </footer>
+</body>
+</html>
